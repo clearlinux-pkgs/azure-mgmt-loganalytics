@@ -4,7 +4,7 @@
 #
 Name     : azure-mgmt-loganalytics
 Version  : 0.5.0
-Release  : 8
+Release  : 9
 URL      : https://files.pythonhosted.org/packages/87/a2/cc70fb71277d36f0b10c5ed63b70ae0aed7ac659c666d62fe7c098e48da5/azure-mgmt-loganalytics-0.5.0.zip
 Source0  : https://files.pythonhosted.org/packages/87/a2/cc70fb71277d36f0b10c5ed63b70ae0aed7ac659c666d62fe7c098e48da5/azure-mgmt-loganalytics-0.5.0.zip
 Summary  : Microsoft Azure Log Analytics Management Client Library for Python
@@ -75,8 +75,8 @@ echo ----[ mark ]----
 cat %{buildroot}/usr/lib/python3*/site-packages/*/requires.txt || :
 echo ----[ mark ]----
 ## Remove excluded files
-rm -f %{buildroot}/usr/lib/python3.9/site-packages/azure/mgmt/__init__.py
-rm -f %{buildroot}/usr/lib/python3.9/site-packages/azure/mgmt/__pycache__/__init__.cpython-38.pyc
+rm -f %{buildroot}/usr/lib/python3*/site-packages/azure/mgmt/__init__.py
+rm -f %{buildroot}/usr/lib/python3*/site-packages/azure/mgmt/__pycache__/__init__.cpython-3*.pyc
 
 %files
 %defattr(-,root,root,-)
