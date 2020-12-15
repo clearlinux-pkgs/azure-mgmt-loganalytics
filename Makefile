@@ -1,5 +1,5 @@
 PKG_NAME := azure-mgmt-loganalytics
-URL = https://files.pythonhosted.org/packages/87/a2/cc70fb71277d36f0b10c5ed63b70ae0aed7ac659c666d62fe7c098e48da5/azure-mgmt-loganalytics-0.5.0.zip
+URL = https://files.pythonhosted.org/packages/17/28/2c4b8ccf4a98ad7bdfc68c403b173e0a75cb1cd4cc62bd00255bc5eda14d/azure-mgmt-loganalytics-2.0.0.zip
 ARCHIVES = 
 
 include ../common/Makefile.common
